@@ -1,1 +1,1 @@
-export {};
+export * from './Custom.scss';

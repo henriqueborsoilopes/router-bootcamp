@@ -8,7 +8,9 @@ export const AppRouter = () => {
           path="/"
           element={
             <>
-              <h1>Hello World!</h1>
+              <button type="button" className="btn btn-segundary">
+                Click me
+              </button>
             </>
           }
         />
