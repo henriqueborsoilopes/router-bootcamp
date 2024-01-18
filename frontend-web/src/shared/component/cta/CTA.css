@@ -1,0 +1,61 @@
+.cta-custom {
+  width: 300px;
+  height: 123px;
+  border-radius: 10px;
+  background: #ededed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+
+.cta-custom button {
+  width: 174px;
+  height: 40px;
+  border-radius: 5px;
+}
+
+.cta-custom p {
+  color: #585858;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 9px;
+  margin: 0;
+}
+
+@media (min-width: 576px) {
+  .cta-custom {
+    width: 536px;
+    flex-direction: row;
+  }
+
+  .cta-custom p {
+    padding-top: 0;
+    padding-left: 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  .cta-custom {
+    width: 728px;
+    justify-content: flex-start;
+    padding-left: 85px;
+  }
+}
+
+@media (min-width: 992px) {
+  .cta-custom {
+    width: 952px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .cta-custom {
+    width: 100%;
+  }
+}
